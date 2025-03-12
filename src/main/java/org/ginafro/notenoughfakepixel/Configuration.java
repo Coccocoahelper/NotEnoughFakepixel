@@ -254,11 +254,11 @@ public class Configuration extends Config {
     public static boolean dungeonsThreeWeirdos = true;
     @Switch(name = "Water Solver" , category = DUNGEONS, subcategory = "Puzzles")
     public static boolean dungeonsWaterSolver = true;
-    //@Switch(name = "Boulder Solver" , category = DUNGEONS, subcategory = "Puzzles")
+    @Switch(name = "Boulder Solver" , category = DUNGEONS, subcategory = "Puzzles")
     public static boolean dungeonsBoulderSolver = false;
-    //@Switch(name = "Silverfish Solver" , category = DUNGEONS, subcategory = "Puzzles")
+    @Switch(name = "Silverfish Solver" , category = DUNGEONS, subcategory = "Puzzles")
     public static boolean dungeonsSilverfishSolver = false;
-    //@Switch(name = "Teleport maze Solver" , category = DUNGEONS, subcategory = "Puzzles")
+    @Switch(name = "Teleport maze Solver" , category = DUNGEONS, subcategory = "Puzzles")
     public static boolean dungeonsTeleportMaze = false;
 
     @Switch(name = "Fel Mobs Display", category = DUNGEONS, subcategory = "Starred Mobs")
